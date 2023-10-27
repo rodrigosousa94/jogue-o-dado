@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    background-color: #032152;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice{
+    display: inline-block;
+    text-align: center;
+}
+
+.score{
+display: flex;
+justify-content: center;
+gap: 110px;
+}
+
+
+h1{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 4px 0 #232931;
+    font-size: 6rem;
+    color: #4ECCA3;
+}
+
+h2{
+    font-size: 2rem;
+    color: #4ECCA3;
+}
+
+img{
+    width: 80%;
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+    color: #EEE;
+}
+
+button{
+    margin-top: 60px;
+    height: 70px;
+    width: 200px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #EEE;
+    color: #032152;
+    cursor: pointer;
+
+}
+button:hover{
+    opacity: .8
+}
+button:active{
+    opacity: .6
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 535px) and (max-width: 755px){
+
+    .container{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    h1{
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 4px 0 #232931;
+    font-size: 3rem;
+    color: #4ECCA3;
+}
+
+img{
+    width: 50%;
+}
+
+
+}
+
+@media (min-width: 450px) and (max-width: 534px){
+
+    .container{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    h1{
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 4px 0 #232931;
+    font-size: 3rem;
+    color: #4ECCA3;
+}
+
+img{
+    width: 40%;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    }
+    
+
+button{
+    margin-top: 60px;
+    height: 50px;
+    width: 200px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #EEE;
+    color: #032152;
+    cursor: pointer;
+
+}
+
+}
+
+@media (min-width: 100px) and (max-width: 449px){
+
+    .container{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    h1{
+    margin: 10px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 4px 0 #232931;
+    font-size: 2rem;
+    color: #4ECCA3;
+}
+
+img{
+    width: 30%;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    }
+    
+
+button{
+    margin-top: 60px;
+    height: 50px;
+    width: 150px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #EEE;
+    color: #032152;
+    cursor: pointer;
+
+}
+h2{
+    font-size: 2rem;
+    color: #4ECCA3;
+}
+
+
+#human-score, #machine-score{
+    font-size: 1.5rem;
+}
+
+}
